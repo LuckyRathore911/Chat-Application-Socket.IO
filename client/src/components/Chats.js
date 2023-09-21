@@ -83,9 +83,9 @@ const Chats = ({ socket, userName, room }) => {
                   <div className="message-content">
                     <p>
                       
-                      {/* if(messageContent.type =="file"){ 
+                      if(messageContent.type =="file"){ 
                         renderMessages()
-                      }else */}
+                      }else
                       {messageContent.message}
                       
                     </p>

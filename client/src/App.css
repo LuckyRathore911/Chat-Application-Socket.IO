@@ -1,7 +1,7 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background: #fff;
+  background: url('../public/chat\ background.avif');
   color: #212121;
   font-family: "Open Sans", sans-serif;
   display: grid;
@@ -15,8 +15,14 @@ body {
 
 .joinChatContainer {
   display: flex;
+  background-color: #fff;
   flex-direction: column;
   text-align: center;
+  color: #6e43a0;
+  padding: 4rem;
+  border: 2px #553180 solid;
+  border-radius: 5px;
+  box-shadow: 2.5px 2.5px 15px #553180;
 }
 
 .joinChatContainer h3 {
@@ -27,7 +33,7 @@ body {
   width: 210px;
   height: 40px;
   margin: 7px;
-  border: 2px solid #43a047;
+  border: 2px solid #6e43a0;
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
@@ -41,17 +47,17 @@ body {
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
-  background: #43a047;
+  background: #6e43a0;
   color: #fff;
   cursor: pointer;
 }
 
 .joinChatContainer button:hover {
-  background: #2e7d32;
+  background: #553180;
 }
 
 .chat-window {
-  width: 300px;
+  width: 400px;
   height: 420px;
 }
 
@@ -61,7 +67,7 @@ body {
 .chat-window .chat-header {
   height: 45px;
   border-radius: 6px;
-  background: #263238;
+  background: #6e43a0;
   position: relative;
   cursor: pointer;
 }
@@ -185,7 +191,7 @@ body {
 }
 
 .chat-window .chat-footer button:hover {
-  color: #43a047;
+  color: #6e43a0;
 }
 .hide {
   opacity: 0 !important;
